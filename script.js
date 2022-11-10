@@ -5,28 +5,28 @@ const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const searchURL = BASE_URL + '/search/movie?'+API_KEY;
 
 const genres = [
-    {
-      "id": 131,
+     {
+      "id": 28,
       "name": "Action"
     },
     {
-      "id": 142,
+      "id": 12,
       "name": "Adventure"
     },
     {
-      "id": 154,
+      "id": 16,
       "name": "Animation"
     },
     {
-      "id": 365665,
+      "id": 35,
       "name": "Comedy"
     },
     {
-      "id": 80343,
+      "id": 80,
       "name": "Crime"
     },
     {
-      "id": 1248,
+      "id": 18,
       "name": "Drama"
     },
     {
@@ -34,7 +34,7 @@ const genres = [
       "name": "Family"
     },
     {
-      "id": 12424,
+      "id": 14,
       "name": "Fantasy"
     },
     {
@@ -50,11 +50,11 @@ const genres = [
       "name": "Mystery"
     },
     {
-      "id": 10232749,
+      "id": 10749,
       "name": "Romance"
     },
     {
-      "id": 87118,
+      "id": 878,
       "name": "Science Fiction"
     },
     {
@@ -62,7 +62,7 @@ const genres = [
       "name": "TV Movie"
     },
     {
-      "id": 5312,
+      "id": 53,
       "name": "Thriller"
     },
     {
@@ -71,6 +71,7 @@ const genres = [
     },
     
   ]
+
 
 const main = document.getElementById('main');
 const form =  document.getElementById('form');
